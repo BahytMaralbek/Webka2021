@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Facebook</title>
+    <style>
+        body{
+            background-color: #f0f2f5;
+            margin-left:10px;
+            z-index: 0;
+        }
+        #leftblock{
+            padding-left: 30%;
+            margin: auto;
+            width: 500px;
+            height: 500px;
+        }
+        #facebookimg{
+            margin-left: 20px;
+            margin-top:auto;
+            margin-bottom: auto;
+            line-height: 0px;
+            vertical-align: top;
+        }
+        .facebookhelp{
+            font-size: 26px;
+            text-align: left;
+            font-weight: lighter;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #ltextblock{
+            margin: auto;
+            width: 400px;
+        }
+        #leftside{
+            margin:20px;
+            padding-top: 200px;
+            padding-bottom: 200px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 50%;
+        }
+        #rightside{
+            margin-top: 10%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 50%;
+        }
+        #maininput{
+            margin: auto;
+        }
+
+        #background{
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            background-color: ghostwhite;
+            width: 400px;
+            height: 350px;
+        }
+        .input{
+            margin-top: auto ;
+        }
+        .input2{
+            background-color:rgb(255, 255, 255);
+            width: 364px;
+            height: 52px;
+            margin:10px;
+            border-radius: 6px;
+            padding: 0px 6px;
+            border-color:lavender;
+            border-width: 1px;
+        }
+        #button1{
+            width: 378px;
+            height: 52px;
+            margin: 10px;
+            border-radius: 6px;
+            padding:0px 6px;
+            color: white;
+            font: 20px Helvetica, Arial, sens-serif;
+            background-color:#1877F2;
+            border-width: 0px;
+        }
+        #button2{
+            width: 220px;
+            height: 52px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            margin: 10px 90px 0px 90px;
+            border-radius: 6px;
+            background-color: #42B72A;
+            color: #ffffff;
+            border-width: 0px;
+        }
+        #forgetpass{
+            text-align:center;
+            font-family:Arial, Helvetica, sans-serif;
+            color:#1877F2;
+        }
+        input::placeholder{
+            font-size: 17px;
+            color:#797979b7;
+        }
+        #line{
+            border-color: black;
+            border-width: 2px;
+        }
+        #createacc{
+            margin:auto;
+            width: 378px;
+            text-align: center;
+            margin-top: 28px;
+        }
+        #famous{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #list{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position: fixed;
+            width: 100%;
+            overflow: hidden;
+            background-color: #ffffff;
+            bottom: 0px;
+        }
+        li{
+            float:left;
+        }
+        a{
+            display: block;
+            color:slategray;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="leftside">
+    <div id="leftblock">
+        <div id="facebookimg">
+            <img id="leftimg" width="300" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg">
+        </div>
+        <div id="ltextblock">
+            <h2 class="facebookhelp">Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</h2>
+        </div>
+    </div>
+</div>
+<div id="rightside">
+    <div id="maininput">
+        <div id="background">
+            <div class="input" width="364" height="52">
+                <input class="input2" placeholder="Электронный адрес или номер телефона"  type="text"/>
+            </div>
+            <div class="input" width="364" height="52">
+                <input class="input2" placeholder="Пароль" type="password"/>
+            </div>
+            <div>
+                <button id="button1"><strong>Вход</strong></button>
+            </div>
+            <div>
+                <p id="forgetpass">Забыли пароль?</p>
+            </div>
+            <div id="line"></div>
+            <div>
+                <button id="button2"><strong>Создать аккаунт</strong></button>
+            </div>
+        </div>
+    </div>
+    <div id="createacc">
+        <p id="famous"><strong>Создать Страницу</strong> знаменитости, музыкальной группы или компании.</p>
+    </div>
+</div>
+<div id="bottom">
+    <ul id="list">
+        <li><a href="">Русский</a></li>
+        <li><a href="">English(US)</a></li>
+        <li><a href="">Turkish</a></li>
+        <li><a href="">Bahasa</a></li>
+        <li><a href="">Indonesia</a></li>
+        <li><a href="">Qazaqsha</a></li>
+        <li><a href="">Deutsch</a></li>
+        <li><a href="">Shqip</a></li>
+        <li><a href="">Expanol</a></li>
+        <li><a href="">Portugues(Brasil)</a></li>
+    </ul>
+</div>
+</body>
+</html>

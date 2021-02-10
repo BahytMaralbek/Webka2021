@@ -1,0 +1,95 @@
+#mainmenu{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header{
+  display: flex;
+}
+.link1{
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 23px;
+}
+.link2{
+  margin-left: 40%;
+  margin-right: 15px;
+  margin-top: 23px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#backgroundimg{
+  margin-right: 20px;
+  margin-left:  20px;
+}
+#microsofttitle{
+  position: absolute;
+  font-family: sans-serif;
+  font-weight:normal;
+  font-size: 36px;
+  top: 220px;
+  left: 150px;
+}
+#fbut{
+  position: absolute;
+  top:400px;
+  left: 150px;
+  width: 150px;
+  height: 40px;
+  border-width: 0px;
+  background-color: black;
+}
+#sbut{
+  position: absolute;
+  top: 400px;
+  width: 150px;
+  height: 40px;
+  left: 350px;
+  background-color: initial;
+  border-width: 0px;
+}
+.buttext{
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#microsofttext{
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  top: 300px;
+  left: 150px;
+  width: 550px;
+}
+#sbuttext{
+  color: black;
+}
+.images{
+  margin-left: 20px;
+}
+#secondblock{
+  display: flex;
+}
+.texts{
+  text-align: left;
+}
+.title{
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 21px;
+}
+.linkstyle{
+  font-family: sans-serif;
+  font-weight:bolder;
+  font-size: 16px;
+  color:rgb(44, 61, 138);
+}
+#secondblock{
+  margin-bottom: 20px;
+}
