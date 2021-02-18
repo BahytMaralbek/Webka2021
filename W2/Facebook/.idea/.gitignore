@@ -1,5 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\Users\User\Desktop\Web development\W2\Facebok\.idea/dataSources/
+/dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
